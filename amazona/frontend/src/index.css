@@ -32,6 +32,10 @@ html {
 main{
   padding: 1rem;
 }
+h2{
+  font-size: var(--font6);
+  margin: 1rem 0;
+}
 header{
   background-color: var(--black);
   padding: 1rem;
