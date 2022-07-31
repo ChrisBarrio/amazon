@@ -29,21 +29,17 @@ html {
   --font5: 1.25rem;
   --font6: 1.5rem;
 }
+.site-container{
+  min-height: 100vh;
+
+}
 main{
   padding: 1rem;
+  flex: 1;
 }
-h2{
-  font-size: var(--font6);
-  margin: 1rem 0;
-}
-header{
-  background-color: var(--black);
-  padding: 1rem;
-}
-header a{
-  color: var(--white);
-  font-weight: bold;
-  font-size: var(--font6);
+
+.header{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .products{
   display: flex;
@@ -58,12 +54,6 @@ header a{
   width: 100%;
   max-width: 30rem;
 }
-.product-info{
-  padding:1rem;
-}
-
-.product-info p,
-.product-info button{
-  padding: .5rem 0;
-  font-size: var(--font5);
+.rating span{
+  color:#ffc000
 }
